@@ -16,7 +16,7 @@ Este projeto tem por finalidade ajudar famílias carentes a sair da zona de pobr
 - Executar o servidor PHP e Apache se o mesmo não estiver em execução.
 - Importar o arquivo do banco de dados chamado "projeto_vencer.sql" localizado na pasta BD para o phpMyAdmin.
 - Se as configurações de usuário e senha do phpMyAdmin foi alterado, deverá ser inserido as novas informações no arquivo config.php localizado na pasta do projeto.
-- Digitar no navegador(browser) o seguinte endereço: http://localhost/projetointegrador/
+- Digitar no navegador(browser) o seguinte endereço: http://localhost/vencer/
 - Realizar o cadastro de usuário.
 - Fazer o login utilizando o e-mail e senha cadastrada.
 
