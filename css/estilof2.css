@@ -1,0 +1,178 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Inter', sans-serif;
+}
+h3{
+    margin-left: 20px;
+}
+header{
+    background-color: #242a25;
+    box-shadow: 0px 3px 20px #464646;
+}
+
+
+input{
+    display: block;
+    height: 55px;
+    width: 400px;
+    margin: 10px;
+    border-radius: 30px;
+    border:none;
+    font-size: 16pt;
+    padding: 10px 20px;
+    outline: none;
+   
+
+}
+div#logo{
+    width: 120;
+    height: 120;
+    padding: 20px;
+    text-align: left;
+    display: flex;
+    align-content: flex;
+}
+div#logo-site{
+    width: 120;
+    height: 120;
+    padding: 20px;
+    text-align: center;
+}
+
+div#logo-site2{
+    width: 120;
+    height: 120;
+    padding: 20px;
+    text-align: center;
+}
+
+div#logo-site4{
+    width: 120;
+    height: 120;
+    padding: 40px;
+    text-align: center;
+
+}
+div#corpo-form{
+    /*background-color: red;*/
+    width: 420px;
+    margin: 150px auto 0px auto;    
+    
+}
+
+div#corpo-form-cad{
+    /*background-color: red;*/
+    width: 420px;
+    margin: 100px auto 0px auto;    
+    
+}
+
+div#corpo-form h1, div#corpo-form-cad{
+    text-align: center;
+    padding: 20px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+}
+
+a:hover{
+    text-decoration: none;
+    
+}
+
+input[type=submit]{
+    background-color: #2864BF;
+    border: none;
+    color:white;
+    cursor: pointer;
+
+    
+   
+    
+}
+
+#id corpo-form{
+    cursor: pointer;
+}
+
+input:hover[type=submit]{
+    background-color: #1EACE9;
+    color: black;
+    align-items: center;
+    
+    
+}
+
+button{
+    background-color: #2864BF;
+    display: block;
+    height: 55px;
+    width: 400px;
+    margin: 10px;
+    border-radius: 30px;
+    border:none;
+    font-size: 16pt;
+    padding: 10px 20px;
+    color: white;
+    cursor: pointer;
+    
+    
+}
+
+button:hover{
+    background-color: #1EACE9;
+   
+}
+
+.voltar{
+    margin-top: 20px;
+    margin-left: 20px;
+    display: flex;
+
+}
+
+.login-button2{
+    background-color: rgb(27, 67, 113);
+    height: 55px;
+    width: 100px;
+    border-radius: 20px;
+    text-decoration: none;    
+    color:black;
+    
+}
+
+button:hover{
+    background-color: #098ce3;
+    color: black;
+}
+body {
+    background-image: url("../imagens/fundo2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: auto;
+  }
+
+  .proximo{
+    color: white;
+    padding-top: 200px;
+    text-align: center;
+    color: #FFF;
+    -webkit-text-stroke-width: 0.8px;
+    -webkit-text-stroke-color: rgb(39, 37, 37);
+    
+  }
+
+
+  .logoprincipal{
+    margin: 20px 20px;
+  }
+.nav-link{
+    color: #FFF;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: #FFF;
+}

@@ -1,0 +1,295 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Inter', sans-serif;
+  box-sizing: border-box;
+}
+
+h3 {
+  margin-left: 20px;
+}
+
+header {
+  background-color: #242a25;
+  box-shadow: 0px 3px 20px #464646;
+}
+
+
+input {
+  display: block;
+  height: 55px;
+  width: 400px;
+  margin: 10px;
+  border-radius: 30px;
+  border: none;
+  font-size: 16pt;
+  padding: 10px 20px;
+  outline: none;
+
+
+}
+
+div#logo {
+  width: 120;
+  height: 120;
+  padding: 20px;
+  text-align: left;
+  display: flex;
+  align-content: flex;
+}
+
+div#logo-site {
+  width: 120;
+  height: 120;
+  padding: 20px;
+  text-align: center;
+}
+
+div#logo-site2 {
+  width: 120;
+  height: 120;
+  padding: 20px;
+  text-align: center;
+}
+
+div#logo-site4 {
+  width: 120;
+  height: 120;
+  padding: 40px;
+  text-align: center;
+
+}
+
+div#corpo-form {
+  /*background-color: red;*/
+  width: 420px;
+  margin: 20px auto 0px auto;
+  text-align: center;
+
+}
+
+div#corpo-form-cad {
+  /*background-color: red;*/
+  width: 420px;
+  margin: 20px auto 0px auto;
+
+}
+
+div#corpo-form h1,
+div#corpo-form-cad {
+  text-align: center;
+  padding: 10px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+}
+
+a:hover {
+  text-decoration: none;
+
+}
+
+input[type=submit] {
+  background-color: #2864BF;
+  border: none;
+  color: white;
+  cursor: pointer;
+
+
+
+
+}
+
+#id corpo-form {
+  cursor: pointer;
+}
+
+input:hover[type=submit] {
+  background-color: #1EACE9;
+  color: black;
+  align-items: center;
+
+
+}
+
+button {
+  background-color: #2864BF;
+  display: block;
+  height: 55px;
+  width: 400px;
+  margin: 10px;
+  border-radius: 30px;
+  border: none;
+  font-size: 16pt;
+  padding: 10px 20px;
+  color: white;
+  cursor: pointer;
+
+
+}
+
+button:hover {
+  background-color: #1EACE9;
+
+}
+
+.voltar {
+  margin-top: 20px;
+  margin-left: 20px;
+  display: flex;
+
+}
+
+.login-button2 {
+  background-color: rgb(27, 67, 113);
+  height: 55px;
+  width: 100px;
+  border-radius: 20px;
+  text-decoration: none;
+  color: black;
+
+}
+
+button:hover {
+  background-color: #098ce3;
+  color: black;
+}
+
+body {
+  background-image: url("../imagens/fundo1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: auto;
+}
+
+.proximo {
+
+  padding-top: 200px;
+  text-align: center;
+  font-family: Helvetica;
+  color: #FFF;
+  -webkit-text-stroke-width: 0.8px;
+  -webkit-text-stroke-color: #FFF;
+}
+
+.logoprincipal {
+  margin: 20px 20px;
+}
+
+.fundo2 {
+  background-image: url("../imagens/fundo2.jpg");
+}
+
+.btnOpenModal {
+  font-size: x-large;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: blueviolet;
+  color: white;
+  cursor: pointer;
+}
+
+hr {
+  border: 0px;
+  border-top: 1px solid lightgrey;
+}
+
+.modal-container {
+  width: 100vw;
+  position: fixed;
+  top: 30px;
+  display: none;
+  z-index: 999;
+  justify-content: center;
+}
+
+.modal {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  background-color: white;
+  border-radius: 10px;
+  width: 50%;
+  color: black
+}
+
+.active {
+  display: flex;
+}
+
+.active .modal {
+  animation: modal .4s;
+}
+
+@keyframes modal {
+  from {
+    opacity: 0;
+    transform: translate3d(0, -60px, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+span {
+  margin: 10px auto;
+}
+
+.modal-container .modal {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+
+}
+
+
+.btnOpen {
+  font-size: medium;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  text-align: center;
+
+}
+
+.btns button {
+  font-size: medium;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+
+.btnClose {
+  display: flex;
+  justify-content: right;
+  color: red;
+}
+
+@media (max-width: 500px) {
+  .modal {
+    padding: 10px;
+    width: 80%;
+  }
+
+  span,
+  .btns button {
+    font-size: smaller;
+  }
+}
+
+.nav-link{
+  color: #FFF;
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: #FFF;
+}
